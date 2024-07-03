@@ -1,0 +1,1587 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-macos14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name CycleKit
+@_exported import CycleKit
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension CycleKit.DiveGasMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ExerciseTitleMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.VideoFrameMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.CameraEventMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.ClimbProMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.GoalMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.LengthMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HsaBodyBatteryDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SportFile : Swift.CustomStringConvertible {
+  public var globalMessages: [CycleKit.GlobalMessage]
+  public var encodeProfileVersion: Swift.UInt16?
+  public var lastPathComponent: Swift.String
+  public var fileType: Swift.String
+  public var filterGlobalMessageNumbers: [Swift.UInt16]?
+  public var profileOnly: Swift.Bool
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SegmentFileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DiveSettingsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.ExdScreenConfigurationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SportFile {
+  public static var sessionDumpHeader: Swift.String {
+    get
+  }
+  public func sessionDump() -> Swift.String?
+}
+extension CycleKit.SegmentLeaderboardEntryMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.VideoDescriptionMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HrMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MesgCapabilitiesMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ActivityMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct AntRxMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SegmentLeaderboardEntryMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DiveApneaAlarmMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ThreeDSensorCalibrationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CadenceZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BeatIntervalsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.RespirationRateMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.TankSummaryMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SdmProfileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TrainingFileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.FileCreatorMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct NmeaSentenceMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaRespirationDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MetZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WeightScaleMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrvStatusSummaryMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SessionMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SegmentLapMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaEventMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct RecordMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FieldCapabilitiesMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.OhrSettingsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SportFile {
+  public init(apiKey: Swift.String, from url: Foundation.URL, filterGlobalMessageNumbers: [Swift.UInt16]? = nil, integrityCheck: Swift.Bool = false, profileOnly: Swift.Bool = true, findOnlyOne: Swift.Bool = false) throws
+}
+extension CycleKit.ExdDataConceptConfigurationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct TimeInZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TotalsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.WeatherConditionsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct TankUpdateMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaConfigurationDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MonitoringHrDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SessionMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ExdDataFieldConfigurationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.GyroscopeDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct VideoTitleMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AadAccelFeaturesMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DiveSummaryMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrvMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct WorkoutStepMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.EventMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.MemoGlobMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct JumpMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrmProfileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.WorkoutSessionMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SpeedZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.AntRxMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SplitMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct LengthMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SpeedZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SleepAssessmentMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaWristTemperatureDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.ChronoShotDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ChronoShotDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ExdDataConceptConfigurationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.WorkoutMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.HsaConfigurationDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.PowerZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct DiveGasMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.SegmentFileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct FileCapabilitiesMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MemoGlobMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaSpo2DataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AntTxMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.SetMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct CapabilitiesMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct LapMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.WorkoutStepMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.JumpMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ObdiiDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BarometerDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ExdDataFieldConfigurationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct OneDSensorCalibrationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.AntTxMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct UserProfileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FieldDescriptionMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CoursePointMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.SegmentIdMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct UndefinedMessage {
+  public var description: Swift.String {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.NmeaSentenceMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.HsaStepDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct Spo2DataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct TankSummaryMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ScheduleMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.AadAccelFeaturesMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.FieldDescriptionMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct DeviceAuxBatteryInfoMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.AccelerometerDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.WeatherAlertMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.Spo2DataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SoftwareMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WatchfaceSettingsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum GlobalMessage : Swift.CustomStringConvertible {
+  case fileId(CycleKit.FileIdMessage)
+  case capabilities(CycleKit.CapabilitiesMessage)
+  case deviceSettings(CycleKit.DeviceSettingsMessage)
+  case userProfile(CycleKit.UserProfileMessage)
+  case hrmProfile(CycleKit.HrmProfileMessage)
+  case sdmProfile(CycleKit.SdmProfileMessage)
+  case bikeProfile(CycleKit.BikeProfileMessage)
+  case zonesTarget(CycleKit.ZonesTargetMessage)
+  case hrZone(CycleKit.HrZoneMessage)
+  case powerZone(CycleKit.PowerZoneMessage)
+  case metZone(CycleKit.MetZoneMessage)
+  case sport(CycleKit.SportMessage)
+  case goal(CycleKit.GoalMessage)
+  case session(CycleKit.SessionMessage)
+  case lap(CycleKit.LapMessage)
+  case record(CycleKit.RecordMessage)
+  case event(CycleKit.EventMessage)
+  case deviceInfo(CycleKit.DeviceInfoMessage)
+  case workout(CycleKit.WorkoutMessage)
+  case workoutStep(CycleKit.WorkoutStepMessage)
+  case schedule(CycleKit.ScheduleMessage)
+  case weightScale(CycleKit.WeightScaleMessage)
+  case course(CycleKit.CourseMessage)
+  case coursePoint(CycleKit.CoursePointMessage)
+  case totals(CycleKit.TotalsMessage)
+  case activity(CycleKit.ActivityMessage)
+  case software(CycleKit.SoftwareMessage)
+  case fileCapabilities(CycleKit.FileCapabilitiesMessage)
+  case mesgCapabilities(CycleKit.MesgCapabilitiesMessage)
+  case fieldCapabilities(CycleKit.FieldCapabilitiesMessage)
+  case fileCreator(CycleKit.FileCreatorMessage)
+  case bloodPressure(CycleKit.BloodPressureMessage)
+  case speedZone(CycleKit.SpeedZoneMessage)
+  case monitoring(CycleKit.MonitoringMessage)
+  case trainingFile(CycleKit.TrainingFileMessage)
+  case hrv(CycleKit.HrvMessage)
+  case antRx(CycleKit.AntRxMessage)
+  case antTx(CycleKit.AntTxMessage)
+  case antChannelId(CycleKit.AntChannelIdMessage)
+  case length(CycleKit.LengthMessage)
+  case monitoringInfo(CycleKit.MonitoringInfoMessage)
+  case pad(CycleKit.UndefinedMessage)
+  case slaveDevice(CycleKit.SlaveDeviceMessage)
+  case connectivity(CycleKit.ConnectivityMessage)
+  case weatherConditions(CycleKit.WeatherConditionsMessage)
+  case weatherAlert(CycleKit.WeatherAlertMessage)
+  case cadenceZone(CycleKit.CadenceZoneMessage)
+  case hr(CycleKit.HrMessage)
+  case segmentLap(CycleKit.SegmentLapMessage)
+  case memoGlob(CycleKit.MemoGlobMessage)
+  case segmentId(CycleKit.SegmentIdMessage)
+  case segmentLeaderboardEntry(CycleKit.SegmentLeaderboardEntryMessage)
+  case segmentPoint(CycleKit.SegmentPointMessage)
+  case segmentFile(CycleKit.SegmentFileMessage)
+  case workoutSession(CycleKit.WorkoutSessionMessage)
+  case watchfaceSettings(CycleKit.WatchfaceSettingsMessage)
+  case gpsMetadata(CycleKit.GpsMetadataMessage)
+  case cameraEvent(CycleKit.CameraEventMessage)
+  case timestampCorrelation(CycleKit.TimestampCorrelationMessage)
+  case gyroscopeData(CycleKit.GyroscopeDataMessage)
+  case accelerometerData(CycleKit.AccelerometerDataMessage)
+  case threeDSensorCalibration(CycleKit.ThreeDSensorCalibrationMessage)
+  case videoFrame(CycleKit.VideoFrameMessage)
+  case obdiiData(CycleKit.ObdiiDataMessage)
+  case nmeaSentence(CycleKit.NmeaSentenceMessage)
+  case aviationAttitude(CycleKit.AviationAttitudeMessage)
+  case video(CycleKit.VideoMessage)
+  case videoTitle(CycleKit.VideoTitleMessage)
+  case videoDescription(CycleKit.VideoDescriptionMessage)
+  case videoClip(CycleKit.VideoClipMessage)
+  case ohrSettings(CycleKit.OhrSettingsMessage)
+  case exdScreenConfiguration(CycleKit.ExdScreenConfigurationMessage)
+  case exdDataFieldConfiguration(CycleKit.ExdDataFieldConfigurationMessage)
+  case exdDataConceptConfiguration(CycleKit.ExdDataConceptConfigurationMessage)
+  case fieldDescription(CycleKit.FieldDescriptionMessage)
+  case developerDataId(CycleKit.DeveloperDataIdMessage)
+  case magnetometerData(CycleKit.MagnetometerDataMessage)
+  case barometerData(CycleKit.BarometerDataMessage)
+  case oneDSensorCalibration(CycleKit.OneDSensorCalibrationMessage)
+  case monitoringHrData(CycleKit.MonitoringHrDataMessage)
+  case timeInZone(CycleKit.TimeInZoneMessage)
+  case set(CycleKit.SetMessage)
+  case stressLevel(CycleKit.StressLevelMessage)
+  case maxMetData(CycleKit.MaxMetDataMessage)
+  case diveSettings(CycleKit.DiveSettingsMessage)
+  case diveGas(CycleKit.DiveGasMessage)
+  case diveAlarm(CycleKit.DiveAlarmMessage)
+  case exerciseTitle(CycleKit.ExerciseTitleMessage)
+  case diveSummary(CycleKit.DiveSummaryMessage)
+  case spo2Data(CycleKit.Spo2DataMessage)
+  case sleepLevel(CycleKit.SleepLevelMessage)
+  case jump(CycleKit.JumpMessage)
+  case aadAccelFeatures(CycleKit.AadAccelFeaturesMessage)
+  case beatIntervals(CycleKit.BeatIntervalsMessage)
+  case respirationRate(CycleKit.RespirationRateMessage)
+  case hsaAccelerometerData(CycleKit.HsaAccelerometerDataMessage)
+  case hsaStepData(CycleKit.HsaStepDataMessage)
+  case hsaSpo2Data(CycleKit.HsaSpo2DataMessage)
+  case hsaStressData(CycleKit.HsaStressDataMessage)
+  case hsaRespirationData(CycleKit.HsaRespirationDataMessage)
+  case hsaHeartRateData(CycleKit.HsaHeartRateDataMessage)
+  case split(CycleKit.SplitMessage)
+  case splitSummary(CycleKit.SplitSummaryMessage)
+  case hsaBodyBatteryData(CycleKit.HsaBodyBatteryDataMessage)
+  case hsaEvent(CycleKit.HsaEventMessage)
+  case climbPro(CycleKit.ClimbProMessage)
+  case tankUpdate(CycleKit.TankUpdateMessage)
+  case tankSummary(CycleKit.TankSummaryMessage)
+  case sleepAssessment(CycleKit.SleepAssessmentMessage)
+  case hrvStatusSummary(CycleKit.HrvStatusSummaryMessage)
+  case hrvValue(CycleKit.HrvValueMessage)
+  case rawBbi(CycleKit.RawBbiMessage)
+  case deviceAuxBatteryInfo(CycleKit.DeviceAuxBatteryInfoMessage)
+  case hsaGyroscopeData(CycleKit.HsaGyroscopeDataMessage)
+  case chronoShotSession(CycleKit.ChronoShotSessionMessage)
+  case chronoShotData(CycleKit.ChronoShotDataMessage)
+  case hsaConfigurationData(CycleKit.HsaConfigurationDataMessage)
+  case diveApneaAlarm(CycleKit.DiveApneaAlarmMessage)
+  case hsaWristTemperatureData(CycleKit.HsaWristTemperatureDataMessage)
+  case mfgRange(CycleKit.UndefinedMessage)
+  case undefinedMessage(CycleKit.UndefinedMessage)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ScheduleMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SlaveDeviceMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaWristTemperatureDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ActivityMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GyroscopeDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RespirationRateMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct FileCreatorMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaStressDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.ThreeDSensorCalibrationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SlaveDeviceMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.AntChannelIdMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HsaStressDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.TotalsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.BeatIntervalsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.FieldCapabilitiesMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.AviationAttitudeMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SplitSummaryMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaBodyBatteryDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SegmentPointMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HrvStatusSummaryMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.TimeInZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct OhrSettingsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaHeartRateDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct StressLevelMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MonitoringInfoMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct VideoMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DiveSettingsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaRespirationDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.CadenceZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SleepAssessmentMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.FileIdMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SegmentIdMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.VideoClipMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct WeatherConditionsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.GlobalMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ConnectivityMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MonitoringInfoMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HsaAccelerometerDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ChronoShotSessionMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.BloodPressureMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct BloodPressureMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.StressLevelMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct WorkoutSessionMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct WeatherAlertMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct ZonesTargetMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ObdiiDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.VideoTitleMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SetMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.SplitSummaryMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ClimbProMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DeveloperDataIdMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MaxMetDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.CourseMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.VideoMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HrvMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct BikeProfileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.SoftwareMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct FileIdMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.LapMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.DiveSummaryMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct MonitoringMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MetZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct MagnetometerDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaStepDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AccelerometerDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MagnetometerDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct VideoDescriptionMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MonitoringHrDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.BarometerDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct CourseMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.TrainingFileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.CoursePointMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct VideoClipMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ZonesTargetMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct VideoFrameMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrvValueMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.UserProfileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct WorkoutMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AntChannelIdMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct DiveAlarmMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct AviationAttitudeMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.OneDSensorCalibrationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct DeviceInfoMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaAccelerometerDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DeviceInfoMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.BikeProfileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.WatchfaceSettingsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SegmentLapMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.HsaSpo2DataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HrZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DeviceSettingsMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SportMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ExerciseTitleMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct DeviceSettingsMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HrvValueMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.MonitoringMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct RawBbiMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct GpsMetadataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DiveApneaAlarmMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SegmentPointMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct TimestampCorrelationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DeveloperDataIdMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.RecordMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.GpsMetadataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.HsaGyroscopeDataMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SdmProfileMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.ConnectivityMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.DiveAlarmMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.MesgCapabilitiesMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.TankUpdateMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HsaHeartRateDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HrmProfileMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.TimestampCorrelationMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct PowerZoneMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct SplitMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.CapabilitiesMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct HsaEventMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.ChronoShotSessionMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct SleepLevelMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CameraEventMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct HsaGyroscopeDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.HrZoneMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SleepLevelMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct MaxMetDataMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct GoalMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.FileCapabilitiesMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct ExdScreenConfigurationMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.RawBbiMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.SportMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+public struct EventMessage {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension CycleKit.DeviceAuxBatteryInfoMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.WeightScaleMessage {
+  public var description: Swift.String {
+    get
+  }
+}
+extension CycleKit.AadAccelFeaturesMessage : Swift.Encodable {}
+extension CycleKit.AadAccelFeaturesMessage : Swift.Decodable {}
+extension CycleKit.AadAccelFeaturesMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DiveGasMessage : Swift.Encodable {}
+extension CycleKit.DiveGasMessage : Swift.Decodable {}
+extension CycleKit.DiveGasMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ExerciseTitleMessage : Swift.Encodable {}
+extension CycleKit.ExerciseTitleMessage : Swift.Decodable {}
+extension CycleKit.ExerciseTitleMessage : Swift.CustomStringConvertible {}
+extension CycleKit.VideoFrameMessage : Swift.Encodable {}
+extension CycleKit.VideoFrameMessage : Swift.Decodable {}
+extension CycleKit.VideoFrameMessage : Swift.CustomStringConvertible {}
+extension CycleKit.CameraEventMessage : Swift.Encodable {}
+extension CycleKit.CameraEventMessage : Swift.Decodable {}
+extension CycleKit.CameraEventMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaSpo2DataMessage : Swift.Encodable {}
+extension CycleKit.HsaSpo2DataMessage : Swift.Decodable {}
+extension CycleKit.HsaSpo2DataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WeatherConditionsMessage : Swift.Encodable {}
+extension CycleKit.WeatherConditionsMessage : Swift.Decodable {}
+extension CycleKit.WeatherConditionsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DeviceSettingsMessage : Swift.Encodable {}
+extension CycleKit.DeviceSettingsMessage : Swift.Decodable {}
+extension CycleKit.DeviceSettingsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ClimbProMessage : Swift.Encodable {}
+extension CycleKit.ClimbProMessage : Swift.Decodable {}
+extension CycleKit.ClimbProMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MetZoneMessage : Swift.Encodable {}
+extension CycleKit.MetZoneMessage : Swift.Decodable {}
+extension CycleKit.MetZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.GoalMessage : Swift.Encodable {}
+extension CycleKit.GoalMessage : Swift.Decodable {}
+extension CycleKit.GoalMessage : Swift.CustomStringConvertible {}
+extension CycleKit.LapMessage : Swift.Encodable {}
+extension CycleKit.LapMessage : Swift.Decodable {}
+extension CycleKit.LapMessage : Swift.CustomStringConvertible {}
+extension CycleKit.LengthMessage : Swift.Encodable {}
+extension CycleKit.LengthMessage : Swift.Decodable {}
+extension CycleKit.LengthMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaBodyBatteryDataMessage : Swift.Encodable {}
+extension CycleKit.HsaBodyBatteryDataMessage : Swift.Decodable {}
+extension CycleKit.HsaBodyBatteryDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SegmentFileMessage : Swift.Encodable {}
+extension CycleKit.SegmentFileMessage : Swift.Decodable {}
+extension CycleKit.SegmentFileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DiveSettingsMessage : Swift.Encodable {}
+extension CycleKit.DiveSettingsMessage : Swift.Decodable {}
+extension CycleKit.DiveSettingsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ExdScreenConfigurationMessage : Swift.Encodable {}
+extension CycleKit.ExdScreenConfigurationMessage : Swift.Decodable {}
+extension CycleKit.ExdScreenConfigurationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SegmentLeaderboardEntryMessage : Swift.Encodable {}
+extension CycleKit.SegmentLeaderboardEntryMessage : Swift.Decodable {}
+extension CycleKit.SegmentLeaderboardEntryMessage : Swift.CustomStringConvertible {}
+extension CycleKit.VideoDescriptionMessage : Swift.Encodable {}
+extension CycleKit.VideoDescriptionMessage : Swift.Decodable {}
+extension CycleKit.VideoDescriptionMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ChronoShotDataMessage : Swift.Encodable {}
+extension CycleKit.ChronoShotDataMessage : Swift.Decodable {}
+extension CycleKit.ChronoShotDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrMessage : Swift.Encodable {}
+extension CycleKit.HrMessage : Swift.Decodable {}
+extension CycleKit.HrMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WorkoutMessage : Swift.Encodable {}
+extension CycleKit.WorkoutMessage : Swift.Decodable {}
+extension CycleKit.WorkoutMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MesgCapabilitiesMessage : Swift.Encodable {}
+extension CycleKit.MesgCapabilitiesMessage : Swift.Decodable {}
+extension CycleKit.MesgCapabilitiesMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ActivityMessage : Swift.Encodable {}
+extension CycleKit.ActivityMessage : Swift.Decodable {}
+extension CycleKit.ActivityMessage : Swift.CustomStringConvertible {}
+extension CycleKit.AntRxMessage : Swift.Encodable {}
+extension CycleKit.AntRxMessage : Swift.Decodable {}
+extension CycleKit.AntRxMessage : Swift.CustomStringConvertible {}
+extension CycleKit.VideoClipMessage : Swift.Encodable {}
+extension CycleKit.VideoClipMessage : Swift.Decodable {}
+extension CycleKit.VideoClipMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DiveApneaAlarmMessage : Swift.Encodable {}
+extension CycleKit.DiveApneaAlarmMessage : Swift.Decodable {}
+extension CycleKit.DiveApneaAlarmMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WeightScaleMessage : Swift.Encodable {}
+extension CycleKit.WeightScaleMessage : Swift.Decodable {}
+extension CycleKit.WeightScaleMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ThreeDSensorCalibrationMessage : Swift.Encodable {}
+extension CycleKit.ThreeDSensorCalibrationMessage : Swift.Decodable {}
+extension CycleKit.ThreeDSensorCalibrationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.CadenceZoneMessage : Swift.Encodable {}
+extension CycleKit.CadenceZoneMessage : Swift.Decodable {}
+extension CycleKit.CadenceZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.BeatIntervalsMessage : Swift.Encodable {}
+extension CycleKit.BeatIntervalsMessage : Swift.Decodable {}
+extension CycleKit.BeatIntervalsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.RespirationRateMessage : Swift.Encodable {}
+extension CycleKit.RespirationRateMessage : Swift.Decodable {}
+extension CycleKit.RespirationRateMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TankSummaryMessage : Swift.Encodable {}
+extension CycleKit.TankSummaryMessage : Swift.Decodable {}
+extension CycleKit.TankSummaryMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SdmProfileMessage : Swift.Encodable {}
+extension CycleKit.SdmProfileMessage : Swift.Decodable {}
+extension CycleKit.SdmProfileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TrainingFileMessage : Swift.Encodable {}
+extension CycleKit.TrainingFileMessage : Swift.Decodable {}
+extension CycleKit.TrainingFileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.FileCreatorMessage : Swift.Encodable {}
+extension CycleKit.FileCreatorMessage : Swift.Decodable {}
+extension CycleKit.FileCreatorMessage : Swift.CustomStringConvertible {}
+extension CycleKit.NmeaSentenceMessage : Swift.Encodable {}
+extension CycleKit.NmeaSentenceMessage : Swift.Decodable {}
+extension CycleKit.NmeaSentenceMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ObdiiDataMessage : Swift.Encodable {}
+extension CycleKit.ObdiiDataMessage : Swift.Decodable {}
+extension CycleKit.ObdiiDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaRespirationDataMessage : Swift.Encodable {}
+extension CycleKit.HsaRespirationDataMessage : Swift.Decodable {}
+extension CycleKit.HsaRespirationDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.BikeProfileMessage : Swift.Encodable {}
+extension CycleKit.BikeProfileMessage : Swift.Decodable {}
+extension CycleKit.BikeProfileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrvStatusSummaryMessage : Swift.Encodable {}
+extension CycleKit.HrvStatusSummaryMessage : Swift.Decodable {}
+extension CycleKit.HrvStatusSummaryMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SessionMessage : Swift.Encodable {}
+extension CycleKit.SessionMessage : Swift.Decodable {}
+extension CycleKit.SessionMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SegmentLapMessage : Swift.Encodable {}
+extension CycleKit.SegmentLapMessage : Swift.Decodable {}
+extension CycleKit.SegmentLapMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaEventMessage : Swift.Encodable {}
+extension CycleKit.HsaEventMessage : Swift.Decodable {}
+extension CycleKit.HsaEventMessage : Swift.CustomStringConvertible {}
+extension CycleKit.EventMessage : Swift.Encodable {}
+extension CycleKit.EventMessage : Swift.Decodable {}
+extension CycleKit.EventMessage : Swift.CustomStringConvertible {}
+extension CycleKit.RecordMessage : Swift.Encodable {}
+extension CycleKit.RecordMessage : Swift.Decodable {}
+extension CycleKit.RecordMessage : Swift.CustomStringConvertible {}
+extension CycleKit.FieldCapabilitiesMessage : Swift.Encodable {}
+extension CycleKit.FieldCapabilitiesMessage : Swift.Decodable {}
+extension CycleKit.FieldCapabilitiesMessage : Swift.CustomStringConvertible {}
+extension CycleKit.OhrSettingsMessage : Swift.Encodable {}
+extension CycleKit.OhrSettingsMessage : Swift.Decodable {}
+extension CycleKit.OhrSettingsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ExdDataConceptConfigurationMessage : Swift.Encodable {}
+extension CycleKit.ExdDataConceptConfigurationMessage : Swift.Decodable {}
+extension CycleKit.ExdDataConceptConfigurationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TimeInZoneMessage : Swift.Encodable {}
+extension CycleKit.TimeInZoneMessage : Swift.Decodable {}
+extension CycleKit.TimeInZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TotalsMessage : Swift.Encodable {}
+extension CycleKit.TotalsMessage : Swift.Decodable {}
+extension CycleKit.TotalsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TankUpdateMessage : Swift.Encodable {}
+extension CycleKit.TankUpdateMessage : Swift.Decodable {}
+extension CycleKit.TankUpdateMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaConfigurationDataMessage : Swift.Encodable {}
+extension CycleKit.HsaConfigurationDataMessage : Swift.Decodable {}
+extension CycleKit.HsaConfigurationDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MonitoringHrDataMessage : Swift.Encodable {}
+extension CycleKit.MonitoringHrDataMessage : Swift.Decodable {}
+extension CycleKit.MonitoringHrDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaStepDataMessage : Swift.Encodable {}
+extension CycleKit.HsaStepDataMessage : Swift.Decodable {}
+extension CycleKit.HsaStepDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ExdDataFieldConfigurationMessage : Swift.Encodable {}
+extension CycleKit.ExdDataFieldConfigurationMessage : Swift.Decodable {}
+extension CycleKit.ExdDataFieldConfigurationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.GyroscopeDataMessage : Swift.Encodable {}
+extension CycleKit.GyroscopeDataMessage : Swift.Decodable {}
+extension CycleKit.GyroscopeDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.VideoTitleMessage : Swift.Encodable {}
+extension CycleKit.VideoTitleMessage : Swift.Decodable {}
+extension CycleKit.VideoTitleMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SplitMessage : Swift.Encodable {}
+extension CycleKit.SplitMessage : Swift.Decodable {}
+extension CycleKit.SplitMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DiveSummaryMessage : Swift.Encodable {}
+extension CycleKit.DiveSummaryMessage : Swift.Decodable {}
+extension CycleKit.DiveSummaryMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrvMessage : Swift.Encodable {}
+extension CycleKit.HrvMessage : Swift.Decodable {}
+extension CycleKit.HrvMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WorkoutStepMessage : Swift.Encodable {}
+extension CycleKit.WorkoutStepMessage : Swift.Decodable {}
+extension CycleKit.WorkoutStepMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MemoGlobMessage : Swift.Encodable {}
+extension CycleKit.MemoGlobMessage : Swift.Decodable {}
+extension CycleKit.MemoGlobMessage : Swift.CustomStringConvertible {}
+extension CycleKit.JumpMessage : Swift.Encodable {}
+extension CycleKit.JumpMessage : Swift.Decodable {}
+extension CycleKit.JumpMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrmProfileMessage : Swift.Encodable {}
+extension CycleKit.HrmProfileMessage : Swift.Decodable {}
+extension CycleKit.HrmProfileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.RawBbiMessage : Swift.Encodable {}
+extension CycleKit.RawBbiMessage : Swift.Decodable {}
+extension CycleKit.RawBbiMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WorkoutSessionMessage : Swift.Encodable {}
+extension CycleKit.WorkoutSessionMessage : Swift.Decodable {}
+extension CycleKit.WorkoutSessionMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SpeedZoneMessage : Swift.Encodable {}
+extension CycleKit.SpeedZoneMessage : Swift.Decodable {}
+extension CycleKit.SpeedZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WatchfaceSettingsMessage : Swift.Encodable {}
+extension CycleKit.WatchfaceSettingsMessage : Swift.Decodable {}
+extension CycleKit.WatchfaceSettingsMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MonitoringMessage : Swift.Encodable {}
+extension CycleKit.MonitoringMessage : Swift.Decodable {}
+extension CycleKit.MonitoringMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SleepAssessmentMessage : Swift.Encodable {}
+extension CycleKit.SleepAssessmentMessage : Swift.Decodable {}
+extension CycleKit.SleepAssessmentMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaWristTemperatureDataMessage : Swift.Encodable {}
+extension CycleKit.HsaWristTemperatureDataMessage : Swift.Decodable {}
+extension CycleKit.HsaWristTemperatureDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.BarometerDataMessage : Swift.Encodable {}
+extension CycleKit.BarometerDataMessage : Swift.Decodable {}
+extension CycleKit.BarometerDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SplitSummaryMessage : Swift.Encodable {}
+extension CycleKit.SplitSummaryMessage : Swift.Decodable {}
+extension CycleKit.SplitSummaryMessage : Swift.CustomStringConvertible {}
+extension CycleKit.PowerZoneMessage : Swift.Encodable {}
+extension CycleKit.PowerZoneMessage : Swift.Decodable {}
+extension CycleKit.PowerZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.FileCapabilitiesMessage : Swift.Encodable {}
+extension CycleKit.FileCapabilitiesMessage : Swift.Decodable {}
+extension CycleKit.FileCapabilitiesMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaStressDataMessage : Swift.Encodable {}
+extension CycleKit.HsaStressDataMessage : Swift.Decodable {}
+extension CycleKit.HsaStressDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.AntTxMessage : Swift.Encodable {}
+extension CycleKit.AntTxMessage : Swift.Decodable {}
+extension CycleKit.AntTxMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SetMessage : Swift.Encodable {}
+extension CycleKit.SetMessage : Swift.Decodable {}
+extension CycleKit.SetMessage : Swift.CustomStringConvertible {}
+extension CycleKit.CapabilitiesMessage : Swift.Encodable {}
+extension CycleKit.CapabilitiesMessage : Swift.Decodable {}
+extension CycleKit.CapabilitiesMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaAccelerometerDataMessage : Swift.Encodable {}
+extension CycleKit.HsaAccelerometerDataMessage : Swift.Decodable {}
+extension CycleKit.HsaAccelerometerDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ChronoShotSessionMessage : Swift.Encodable {}
+extension CycleKit.ChronoShotSessionMessage : Swift.Decodable {}
+extension CycleKit.ChronoShotSessionMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MaxMetDataMessage : Swift.Encodable {}
+extension CycleKit.MaxMetDataMessage : Swift.Decodable {}
+extension CycleKit.MaxMetDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.OneDSensorCalibrationMessage : Swift.Encodable {}
+extension CycleKit.OneDSensorCalibrationMessage : Swift.Decodable {}
+extension CycleKit.OneDSensorCalibrationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.UserProfileMessage : Swift.Encodable {}
+extension CycleKit.UserProfileMessage : Swift.Decodable {}
+extension CycleKit.UserProfileMessage : Swift.CustomStringConvertible {}
+extension CycleKit.FieldDescriptionMessage : Swift.Encodable {}
+extension CycleKit.FieldDescriptionMessage : Swift.Decodable {}
+extension CycleKit.FieldDescriptionMessage : Swift.CustomStringConvertible {}
+extension CycleKit.CoursePointMessage : Swift.Encodable {}
+extension CycleKit.CoursePointMessage : Swift.Decodable {}
+extension CycleKit.CoursePointMessage : Swift.CustomStringConvertible {}
+extension CycleKit.VideoMessage : Swift.Encodable {}
+extension CycleKit.VideoMessage : Swift.Decodable {}
+extension CycleKit.VideoMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SegmentIdMessage : Swift.Encodable {}
+extension CycleKit.SegmentIdMessage : Swift.Decodable {}
+extension CycleKit.SegmentIdMessage : Swift.CustomStringConvertible {}
+extension CycleKit.UndefinedMessage : Swift.Encodable {}
+extension CycleKit.UndefinedMessage : Swift.Decodable {}
+extension CycleKit.UndefinedMessage : Swift.CustomStringConvertible {}
+extension CycleKit.StressLevelMessage : Swift.Encodable {}
+extension CycleKit.StressLevelMessage : Swift.Decodable {}
+extension CycleKit.StressLevelMessage : Swift.CustomStringConvertible {}
+extension CycleKit.Spo2DataMessage : Swift.Encodable {}
+extension CycleKit.Spo2DataMessage : Swift.Decodable {}
+extension CycleKit.Spo2DataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ScheduleMessage : Swift.Encodable {}
+extension CycleKit.ScheduleMessage : Swift.Decodable {}
+extension CycleKit.ScheduleMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DeviceAuxBatteryInfoMessage : Swift.Encodable {}
+extension CycleKit.DeviceAuxBatteryInfoMessage : Swift.Decodable {}
+extension CycleKit.DeviceAuxBatteryInfoMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ConnectivityMessage : Swift.Encodable {}
+extension CycleKit.ConnectivityMessage : Swift.Decodable {}
+extension CycleKit.ConnectivityMessage : Swift.CustomStringConvertible {}
+extension CycleKit.AccelerometerDataMessage : Swift.Encodable {}
+extension CycleKit.AccelerometerDataMessage : Swift.Decodable {}
+extension CycleKit.AccelerometerDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.CourseMessage : Swift.Encodable {}
+extension CycleKit.CourseMessage : Swift.Decodable {}
+extension CycleKit.CourseMessage : Swift.CustomStringConvertible {}
+extension CycleKit.WeatherAlertMessage : Swift.Encodable {}
+extension CycleKit.WeatherAlertMessage : Swift.Decodable {}
+extension CycleKit.WeatherAlertMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SoftwareMessage : Swift.Encodable {}
+extension CycleKit.SoftwareMessage : Swift.Decodable {}
+extension CycleKit.SoftwareMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SlaveDeviceMessage : Swift.Encodable {}
+extension CycleKit.SlaveDeviceMessage : Swift.Decodable {}
+extension CycleKit.SlaveDeviceMessage : Swift.CustomStringConvertible {}
+extension CycleKit.GlobalMessage : Swift.Encodable {}
+extension CycleKit.GlobalMessage : Swift.Decodable {}
+extension CycleKit.AntChannelIdMessage : Swift.Encodable {}
+extension CycleKit.AntChannelIdMessage : Swift.Decodable {}
+extension CycleKit.AntChannelIdMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DeveloperDataIdMessage : Swift.Encodable {}
+extension CycleKit.DeveloperDataIdMessage : Swift.Decodable {}
+extension CycleKit.DeveloperDataIdMessage : Swift.CustomStringConvertible {}
+extension CycleKit.AviationAttitudeMessage : Swift.Encodable {}
+extension CycleKit.AviationAttitudeMessage : Swift.Decodable {}
+extension CycleKit.AviationAttitudeMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SegmentPointMessage : Swift.Encodable {}
+extension CycleKit.SegmentPointMessage : Swift.Decodable {}
+extension CycleKit.SegmentPointMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SportMessage : Swift.Encodable {}
+extension CycleKit.SportMessage : Swift.Decodable {}
+extension CycleKit.SportMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaHeartRateDataMessage : Swift.Encodable {}
+extension CycleKit.HsaHeartRateDataMessage : Swift.Decodable {}
+extension CycleKit.HsaHeartRateDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.TimestampCorrelationMessage : Swift.Encodable {}
+extension CycleKit.TimestampCorrelationMessage : Swift.Decodable {}
+extension CycleKit.TimestampCorrelationMessage : Swift.CustomStringConvertible {}
+extension CycleKit.SleepLevelMessage : Swift.Encodable {}
+extension CycleKit.SleepLevelMessage : Swift.Decodable {}
+extension CycleKit.SleepLevelMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MonitoringInfoMessage : Swift.Encodable {}
+extension CycleKit.MonitoringInfoMessage : Swift.Decodable {}
+extension CycleKit.MonitoringInfoMessage : Swift.CustomStringConvertible {}
+extension CycleKit.FileIdMessage : Swift.Encodable {}
+extension CycleKit.FileIdMessage : Swift.Decodable {}
+extension CycleKit.FileIdMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrZoneMessage : Swift.Encodable {}
+extension CycleKit.HrZoneMessage : Swift.Decodable {}
+extension CycleKit.HrZoneMessage : Swift.CustomStringConvertible {}
+extension CycleKit.BloodPressureMessage : Swift.Encodable {}
+extension CycleKit.BloodPressureMessage : Swift.Decodable {}
+extension CycleKit.BloodPressureMessage : Swift.CustomStringConvertible {}
+extension CycleKit.ZonesTargetMessage : Swift.Encodable {}
+extension CycleKit.ZonesTargetMessage : Swift.Decodable {}
+extension CycleKit.ZonesTargetMessage : Swift.CustomStringConvertible {}
+extension CycleKit.MagnetometerDataMessage : Swift.Encodable {}
+extension CycleKit.MagnetometerDataMessage : Swift.Decodable {}
+extension CycleKit.MagnetometerDataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HrvValueMessage : Swift.Encodable {}
+extension CycleKit.HrvValueMessage : Swift.Decodable {}
+extension CycleKit.HrvValueMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DeviceInfoMessage : Swift.Encodable {}
+extension CycleKit.DeviceInfoMessage : Swift.Decodable {}
+extension CycleKit.DeviceInfoMessage : Swift.CustomStringConvertible {}
+extension CycleKit.DiveAlarmMessage : Swift.Encodable {}
+extension CycleKit.DiveAlarmMessage : Swift.Decodable {}
+extension CycleKit.DiveAlarmMessage : Swift.CustomStringConvertible {}
+extension CycleKit.GpsMetadataMessage : Swift.Encodable {}
+extension CycleKit.GpsMetadataMessage : Swift.Decodable {}
+extension CycleKit.GpsMetadataMessage : Swift.CustomStringConvertible {}
+extension CycleKit.HsaGyroscopeDataMessage : Swift.Encodable {}
+extension CycleKit.HsaGyroscopeDataMessage : Swift.Decodable {}
+extension CycleKit.HsaGyroscopeDataMessage : Swift.CustomStringConvertible {}

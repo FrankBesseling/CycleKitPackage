@@ -1,0 +1,6 @@
+framework module CycleKit {
+  umbrella header "CycleKit.h"
+  export *
+
+  module * { export * }
+}
