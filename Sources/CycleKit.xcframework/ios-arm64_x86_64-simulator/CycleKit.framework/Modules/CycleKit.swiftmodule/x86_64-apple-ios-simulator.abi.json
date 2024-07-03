@@ -846,19 +846,19 @@
           },
           {
             "kind": "Var",
-            "name": "lastPathComponent",
-            "printedName": "lastPathComponent",
+            "name": "url",
+            "printedName": "url",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:8CycleKit9SportFileV17lastPathComponentSSvp",
-            "mangledName": "$s8CycleKit9SportFileV17lastPathComponentSSvp",
+            "usr": "s:8CycleKit9SportFileV3url10Foundation3URLVvp",
+            "mangledName": "$s8CycleKit9SportFileV3url10Foundation3URLVvp",
             "moduleName": "CycleKit",
             "declAttributes": [
               "HasStorage",
@@ -874,14 +874,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8CycleKit9SportFileV17lastPathComponentSSvg",
-                "mangledName": "$s8CycleKit9SportFileV17lastPathComponentSSvg",
+                "usr": "s:8CycleKit9SportFileV3url10Foundation3URLVvg",
+                "mangledName": "$s8CycleKit9SportFileV3url10Foundation3URLVvg",
                 "moduleName": "CycleKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -898,14 +898,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8CycleKit9SportFileV17lastPathComponentSSvs",
-                "mangledName": "$s8CycleKit9SportFileV17lastPathComponentSSvs",
+                "usr": "s:8CycleKit9SportFileV3url10Foundation3URLVvs",
+                "mangledName": "$s8CycleKit9SportFileV3url10Foundation3URLVvs",
                 "moduleName": "CycleKit",
                 "implicit": true,
                 "accessorKind": "set"
@@ -922,11 +922,52 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8CycleKit9SportFileV17lastPathComponentSSvM",
-                "mangledName": "$s8CycleKit9SportFileV17lastPathComponentSSvM",
+                "usr": "s:8CycleKit9SportFileV3url10Foundation3URLVvM",
+                "mangledName": "$s8CycleKit9SportFileV3url10Foundation3URLVvM",
                 "moduleName": "CycleKit",
                 "implicit": true,
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileName",
+            "printedName": "fileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8CycleKit9SportFileV8fileNameSSvp",
+            "mangledName": "$s8CycleKit9SportFileV8fileNameSSvp",
+            "moduleName": "CycleKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8CycleKit9SportFileV8fileNameSSvg",
+                "mangledName": "$s8CycleKit9SportFileV8fileNameSSvg",
+                "moduleName": "CycleKit",
+                "accessorKind": "get"
               }
             ]
           },

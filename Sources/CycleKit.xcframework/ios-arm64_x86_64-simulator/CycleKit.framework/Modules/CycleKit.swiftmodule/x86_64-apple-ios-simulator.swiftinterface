@@ -48,7 +48,10 @@ public struct HsaBodyBatteryDataMessage {
 public struct SportFile : Swift.CustomStringConvertible {
   public var globalMessages: [CycleKit.GlobalMessage]
   public var encodeProfileVersion: Swift.UInt16?
-  public var lastPathComponent: Swift.String
+  public var url: Foundation.URL
+  public var fileName: Swift.String {
+    get
+  }
   public var fileType: Swift.String
   public var filterGlobalMessageNumbers: [Swift.UInt16]?
   public var profileOnly: Swift.Bool
