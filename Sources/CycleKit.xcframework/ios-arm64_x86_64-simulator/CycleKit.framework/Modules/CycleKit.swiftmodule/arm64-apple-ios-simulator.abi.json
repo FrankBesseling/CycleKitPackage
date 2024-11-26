@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "CycleKit",
+    "printedName": "CycleKit",
     "children": [
       {
         "kind": "Import",
@@ -153,6 +153,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -535,6 +549,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -1485,6 +1513,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -1671,6 +1713,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -2005,6 +2061,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -2205,6 +2275,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -2429,6 +2513,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -2569,6 +2667,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -2723,6 +2835,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -2873,6 +2999,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -3027,6 +3167,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -3177,6 +3331,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -3421,6 +3589,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -3561,6 +3743,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -3745,6 +3941,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -3895,6 +4105,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -4099,6 +4323,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -4239,6 +4477,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -4433,6 +4685,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -4605,6 +4871,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -4745,6 +5025,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -4989,6 +5283,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -5139,6 +5447,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -5323,6 +5645,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -5473,6 +5809,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -5637,6 +5987,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -5787,6 +6151,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -6031,6 +6409,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -6253,6 +6645,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -6455,6 +6861,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -6635,6 +7055,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -6897,6 +7331,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -7181,6 +7629,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -7321,6 +7783,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -7493,6 +7969,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -7937,6 +8427,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8077,6 +8581,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -8331,6 +8849,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8543,6 +9075,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8725,6 +9271,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -8865,6 +9425,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -9047,6 +9621,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -9239,6 +9827,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -9461,6 +10063,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -9695,6 +10311,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -9865,6 +10495,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -10099,6 +10743,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -10239,6 +10897,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -10443,6 +11115,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -10583,6 +11269,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -10765,6 +11465,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -10995,6 +11709,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -11259,6 +11987,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -11421,6 +12163,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -11561,6 +12317,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -11845,6 +12615,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -12107,6 +12891,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -12257,6 +13055,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -18924,6 +19736,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -19074,6 +19900,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -19238,6 +20078,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -19398,6 +20252,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -19590,6 +20458,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -19794,6 +20676,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -19964,6 +20860,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -20288,6 +21198,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -20580,6 +21504,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -20770,6 +21708,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -21054,6 +22006,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -21214,6 +22180,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -21638,6 +22618,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -21850,6 +22844,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -22000,6 +23008,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -22344,6 +23366,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -22646,6 +23682,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -22836,6 +23886,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -23038,6 +24102,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -23260,6 +24338,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -23492,6 +24584,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -23736,6 +24842,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -23886,6 +25006,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -24090,6 +25224,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -24270,6 +25418,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -24462,6 +25624,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -24674,6 +25850,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -24968,6 +26158,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -25128,6 +26332,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -25300,6 +26518,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -25534,6 +26766,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -25746,6 +26992,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -25886,6 +27146,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -26048,6 +27322,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -26232,6 +27520,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -26412,6 +27714,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -26846,6 +28162,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -27076,6 +28406,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -27340,6 +28684,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -27512,6 +28870,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -27662,6 +29034,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -27886,6 +29272,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -28056,6 +29456,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -28278,6 +29692,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -28552,6 +29980,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -28734,6 +30176,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -28896,6 +30352,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -29046,6 +30516,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -29300,6 +30784,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -29450,6 +30948,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -29642,6 +31154,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -30086,6 +31612,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -30236,6 +31776,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -30470,6 +32024,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -30652,6 +32220,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -30832,6 +32414,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -31066,6 +32662,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -31206,6 +32816,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -31458,6 +33082,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -31762,6 +33400,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -31912,6 +33564,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomStringConvertible",
@@ -32256,6 +33922,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -32428,6 +34108,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomStringConvertible",
             "printedName": "CustomStringConvertible",
             "usr": "s:s23CustomStringConvertibleP",
@@ -32593,6 +34287,104 @@
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "Array",
+      "offset": 321,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "IntegerLiteral",
+      "offset": 429,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "IntegerLiteral",
+      "offset": 574,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/FixedWidthInteger Binary Ops.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "Array",
+      "offset": 1668,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1688,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1706,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1735,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1744,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1752,
+      "length": 1,
+      "value": "8"
+    },
     {
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/WeatherConditionsMessageInit.swift",
       "kind": "IntegerLiteral",
@@ -34414,6 +36206,209 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2079,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2183,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2314,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2318,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2448,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2566,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2570,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "Array",
+      "offset": 2635,
+      "length": 11,
+      "value": "[0, 16, 32]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2748,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2796,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2800,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2927,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3027,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3031,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 3091,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 3126,
+      "length": 6,
+      "value": "\".FIT\""
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3256,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3304,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3309,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3455,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3582,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3645,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3666,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3760,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/FileHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3916,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/WorkoutMessageInit.swift",
       "kind": "IntegerLiteral",
       "offset": 1324,
@@ -34662,6 +36657,97 @@
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/ClimbProMessageInit.swift",
       "kind": "IntegerLiteral",
       "offset": 2568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "Array",
+      "offset": 2398,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2436,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2465,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2474,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2482,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "Array",
+      "offset": 3425,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3463,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3492,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3501,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3509,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3727,
       "length": 1,
       "value": "0"
     },
@@ -36659,6 +38745,48 @@
       "offset": 13546,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "Array",
+      "offset": 1572,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1592,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1610,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1639,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1648,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1656,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/WatchfaceSettingsMessageInit.swift",
@@ -39804,6 +41932,48 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "Array",
+      "offset": 1579,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1599,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1617,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1646,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1655,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int16.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1663,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/ScheduleMessageInit.swift",
       "kind": "IntegerLiteral",
       "offset": 1326,
@@ -41771,32 +43941,46 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Architecture.swift",
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
+      "kind": "Array",
+      "offset": 1573,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
       "kind": "IntegerLiteral",
-      "offset": 477,
+      "offset": 1593,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Architecture.swift",
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 1611,
       "length": 1,
-      "value": "1"
+      "value": "8"
     },
     {
-      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Architecture.swift",
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
       "kind": "IntegerLiteral",
-      "offset": 477,
+      "offset": 1640,
       "length": 1,
-      "value": "0"
+      "value": "8"
     },
     {
-      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Architecture.swift",
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
       "kind": "IntegerLiteral",
-      "offset": 630,
+      "offset": 1649,
       "length": 1,
-      "value": "1"
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Int64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Architecture.swift",
@@ -41851,6 +44035,97 @@
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/OhrSettingsMessageInit.swift",
       "kind": "IntegerLiteral",
       "offset": 2006,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "Array",
+      "offset": 2398,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2418,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2436,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2465,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2474,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2482,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "Array",
+      "offset": 3424,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3444,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3462,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3491,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3500,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3508,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3726,
       "length": 1,
       "value": "0"
     },
@@ -44175,6 +46450,139 @@
       "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Profile21.133.00\/MessageInitializer21.133.00\/DeviceInfoMessageInit.swift",
       "kind": "IntegerLiteral",
       "offset": 4791,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "Array",
+      "offset": 1667,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1705,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1734,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1743,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data Float32.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1751,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "Array",
+      "offset": 2400,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2438,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2467,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2476,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2484,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "Array",
+      "offset": 3426,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3446,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3464,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3493,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3502,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3510,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/frankbesseling\/Library\/Mobile Documents\/iCloud~com~apple~Playgrounds\/Documents\/Frameworks\/CycleKit\/CycleKit\/Fit\/Extensions\/Data UInt64.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3728,
       "length": 1,
       "value": "0"
     },
